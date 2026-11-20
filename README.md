@@ -1,43 +1,58 @@
 # Leetcode POTD
 
-**Learning archive** · A collection of daily LeetCode problem submissions.
+A collection of daily coding problem submissions and supporting documentation.
 
 ## Overview
 
-A collection of daily LeetCode problem submissions.
+This repository is maintained as a learning project or technical archive. It documents an implementation area, a set of practical exercises, or an experiment while preserving a focused and inspectable project structure.
+
+## Key Features
+
+- Self-contained implementation
+- Browser or tool-based interaction
+- Reusable project structure
+- Clear input-to-output workflow
 
 ## Technology Stack
 
-- `Tools and configuration`
+| Area | Technology |
+|---|---|
+| Library / Framework / Tool | Repository-specific tooling |
 
-## How the Repository Works
+## Architecture and Data Flow
 
 ```mermaid
 flowchart LR
-    N0["Problem<br/> Define constraints and edge cases"]
-    N1["Implementation<br/> Apply a data structure or algorithm"]
+    N0["Problem Definition<br/> Inputs, outputs, constraints, and edge cases are identified."]
+    N1["Algorithm<br/> A data structure or algorithm is selected."]
+    N2["Implementation<br/> The solution is expressed in source code."]
+    N3["Verification<br/> Example cases and edge cases are exercised."]
     N0 --> N1
-    N2["Validation<br/> Execute examples and test edge cases"]
     N1 --> N2
+    N2 --> N3
 ```
 
 | Stage | Responsibility |
 |---|---|
-| **Problem** | Define constraints and edge cases |
-| **Implementation** | Apply a data structure or algorithm |
-| **Validation** | Execute examples and test edge cases |
+| **Problem Definition** | Inputs, outputs, constraints, and edge cases are identified. |
+| **Algorithm** | A data structure or algorithm is selected. |
+| **Implementation** | The solution is expressed in source code. |
+| **Verification** | Example cases and edge cases are exercised. |
 
-## Concepts Covered
+## Setup
 
-- Daily problem-solving
-- Data structures
-- Algorithmic patterns
-- Edge-case analysis
+1. Review the repository structure and applicable runtime requirement.
+2. Open the entry-point file in an editor or IDE.
+3. Run or open it using the tool required for the project language.
 
-## Recruiter Summary
+## Usage
 
-This repository shows hands-on practice, iterative learning, and problem-solving across the technologies listed above. It is most useful as evidence of foundational growth and experimentation rather than as a production release.
+Compile or run the relevant source file and provide the required input where applicable.
 
----
+## Configuration
 
-<sub>Documentation is concise and project-focused; source code was not modified.</sub>
+No mandatory repository-specific configuration is documented by the project structure. Environment or runtime options may be defined inside the relevant entry-point file or platform settings.
+
+## Verification
+
+- Run the project entry point and verify the primary success and error paths.
